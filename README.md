@@ -1,1 +1,1 @@
-# Find Your Right university in Germany
+# Choose Your University in Germany
