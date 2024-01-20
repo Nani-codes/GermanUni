@@ -1,1 +1,1 @@
-# Find_Study
+# Find Your Right university in Germany
