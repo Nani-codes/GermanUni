@@ -3,11 +3,11 @@ import axios from "axios";
 import "../App.css";
 import Card from "../templates/Card";
 import Pagination from "../templates/pagination";
-
 import Unis from "../data/Universities.json";
 // let Unis = require('./data/Universities.json')
 
 function Functions() {
+
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -16,7 +16,7 @@ function Functions() {
 
   useEffect(() => {
     axios
-      .get("Universities.json")
+      .get(`http://localhost:5050/record/`)
       .then((res) => {
         setData(res.data);
         setLoading(false);
